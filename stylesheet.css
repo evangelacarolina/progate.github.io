@@ -1,17 +1,6 @@
-header {
-  height: 65px;
-  width: 100%;
-  background-color: rgba(34, 49, 52, 0.9);
-}
-
-.logo {
-  width: 124px;
-  margin-top: 20px;
-}
-
 body {
   margin: 0;
-  font-family: "Lucida Grande";
+  font-family: "Verdana";
 }
 
 a {
@@ -25,23 +14,23 @@ a {
 }
 
 .top-wrapper {
-  padding: 180px 0 100px 0;
-  background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
+  padding: 110px 0 30px 0;
+  color: #f1c40f;
+  background-image: url(https://github.com/evangelacarolina/progate.github.io/blob/master/2017_%2012%20Months%20of%20Bucket%20List%20MTB%20Destinations.jpg);
   background-size: cover;
-  color: white;
   text-align: center;
 }
 
 .top-wrapper h1 {
-  opacity: 0.7;
+  opacity: 1;
   font-size: 45px;
-  letter-spacing: 5px;
-  margin-bottom: 10px;
+  letter-spacing: 3px;
+  margin-bottom: 5px;
 }
 
 .top-wrapper p {
-  opacity: 0.7;
-  margin-bottom: 3px;
+  opacity: 1;
+  margin-bottom: 1px;
 }
 
 .btn-wrapper {
@@ -52,6 +41,62 @@ a {
   margin: 10px 0;
 }
 
-.signup {
-  background-color: #239b76;
+.booking {
+  background-color: #192a56;
+  cursor: pointer;
+  box-shadow: 0 6px #7f8c8d;
+}
+
+.booking:active {
+  box-shadow: none;
+  position: relative;
+  top: 7px;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 1;
+  border-radius: 6px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+header {
+  height: 110px;
+  width: 100%;
+  background-color: #f1c40f;
+}
+
+.logo {
+  width: 120px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  transition: all 0.5s;
+}
+
+.header-right:hover {
+  background-color: rgb(240, 204, 127, 0.5)
+}
+
+.header-right a {
+  line-height: 110px;
+  font-size: 20px;
+  margin-top: 50px;
+  margin-left: 35px;
+  margin-right: 35px;
+  margin-bottom: 20px;
+  color: white;
+  display: inline;
 }
