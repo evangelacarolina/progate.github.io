@@ -1,3 +1,12 @@
-.title {
-  color: #02ccba;
+.header {
+  background-color: #26d0c9;
+  color: #fff;
+  height: 90px;
+}
+
+.header-logo {
+  float: left;
+  font-size: 36px;
+  /* Ubahlah padding atas & bawah ke 20px, dan padding kiri & kanan ke 40px */
+  padding: 20px 40px 20px 40px;
 }
